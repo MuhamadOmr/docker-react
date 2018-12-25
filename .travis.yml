@@ -9,7 +9,6 @@ script:
   - docker run stephengrider/docker-react npm run test -- --coverage
 
 deploy:
-
   provider: elasticbeanstalk
   region:
   app: "docker-react"
